@@ -1,0 +1,10 @@
+h5py>=3.12.1
+notebook>=7.3.2
+numba
+pandas>=2.2.3
+pillow>=11.1.0
+pydot>=3.0.4
+scikit-learn>=1.6.1
+scipy>=1.15.1
+# tensorflow>=2.18.0  # Placeholder for Windows (no GPU support)
+tensorflow[and-cuda]>=2.18.0  # Version used on WSL environment
